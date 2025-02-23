@@ -9,8 +9,19 @@ const App = () => {
         <p>Find your favorite ice cream place here!!!</p>
         <p>Here, we have varity places that you can choose from.</p>
 
-        <div>
-
+        <div className="card-container">
+          <Card></Card>
+          <Card></Card>
+          <Card></Card>
+          <Card></Card>
+          <Card></Card>
+          <Card></Card>
+          <Card></Card>
+          <Card></Card>
+          <Card></Card>
+          <Card></Card>
+          <Card></Card>
+          <Card></Card>
         </div>
       </div>
     </>

@@ -1,6 +1,7 @@
 body{
     background: linear-gradient(to bottom, rgba(255, 215, 185, 0.91) 23%, rgba(223, 159, 247, 0.8) 93%);
-    height: 100vh;
+    min-height: 100vh;
+    background-repeat: no-repeat;
 }
 
 .container{
@@ -9,4 +10,30 @@ body{
     text-align: center;
     margin: auto;
     width: 80%;
+}
+
+.card{
+    padding: 10px;
+    border: 1px solid rgb(85, 39, 39);
+    border-radius: 10px;
+    box-shadow: 2px 2px 2px lightcoral;
+}
+
+.card-container{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap:3%;
+}
+
+button{
+    padding: 3px;
+    background-color: white;
+    border: 1px solid white;
+    border-radius: 5px;
+    font-size: 18px;
+}
+
+button:hover{
+    border: 1px solid blue;
+    cursor: pointer;
 }
