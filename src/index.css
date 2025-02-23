@@ -1,51 +1,63 @@
-body{
-    background: linear-gradient(to bottom, rgba(255, 215, 185, 0.91) 23%, rgba(223, 159, 247, 0.8) 93%);
-    min-height: 100vh;
-    background-repeat: no-repeat;
+/* Sets the background-color */
+body {
+  background: linear-gradient(
+    to bottom,
+    rgba(255, 215, 185, 0.91) 23%,
+    rgba(223, 159, 247, 0.8) 93%
+  );
+  min-height: 100vh;
+  background-repeat: no-repeat;
 }
 
-.container{
-    display: flex;
-    flex-direction: column;
-    text-align: center;
-    margin: auto;
-    width: 80%;
+/* Center everything */
+.container {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  margin: auto;
+  width: 80%;
 }
 
-.header-text p{
-    font-size: 18px;
+.header-text p {
+  font-size: 18px;
 }
 
-.card{
-    border: 1px solid rgb(85, 39, 39);
-    border-radius: 10px;
-    box-shadow: 2px 2px 2px lightcoral;
+.card {
+  border: 1px solid rgb(85, 39, 39);
+  border-radius: 10px;
+  box-shadow: 2px 2px 2px lightcoral;
 }
 
-.card img{
-    width: 100%;
-    height: 200px;
-    border-radius: 10px 10px 0px 0px;
+.card img {
+  width: 100%;
+  height: 200px;
+  border-radius: 10px 10px 0px 0px;
 }
 
-.card-container{
-    margin-top: 40px;
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    gap:3%;
-    margin-bottom: 20%;
+.card-container {
+  margin-top: 40px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 3%;
+  margin-bottom: 20%;
 }
 
-button{
-    padding: 3px;
-    background-color: white;
-    border: 1px solid white;
-    border-radius: 5px;
-    font-size: 18px;
-    margin-bottom: 10px;
+button {
+  padding: 3px;
+  background-color: white;
+  border: 1px solid white;
+  border-radius: 5px;
+  font-size: 18px;
+  margin-bottom: 10px;
 }
 
-button:hover{
-    border: 1px solid blue;
-    cursor: pointer;
+button a {
+  padding: 3px;
+  text-decoration: none;
+  color: black;
+}
+
+button:hover {
+  border: 1px solid blue;
+  cursor: pointer;
 }

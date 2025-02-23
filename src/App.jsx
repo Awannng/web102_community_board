@@ -4,29 +4,77 @@ import Card from "./components/Card";
 const App = () => {
   return (
     <>
+      {/* The container which centers the page */}
       <div className="container">
+        {/* The title of the page and some descriptions */}
         <div className="header-text">
           <h1>YumYum Ice Cream</h1>
           <p>Find your favorite ice cream place here!!!</p>
           <p>Here, we have varity places that you can choose from.</p>
         </div>
 
+        {/* Cards with props */}
         <div className="card-container">
-          <Card name="Sprinkles" image="public/Sprinkles.jpg" />
-          <Card name="Ice Cream House" image="public/ice_cream_house.png" />
-          <Card name="Ice Cream Center" image="public/ice_cream_center.jpg" />
-          <Card name="Carvel" image="public/carvel.jpg" />
-          <Card name="Baskin-Robbins" image="public/baskin_robbins.png" />
+          <Card
+            name="Sprinkles"
+            image="src/assets/Sprinkles.jpg"
+            url="https://ilikesprinkles.com/"
+          />
+          <Card
+            name="Ice Cream House"
+            image="src/assets/ice_cream_house.png"
+            url="https://theicecreamhouse.com/"
+          />
+          <Card
+            name="Ice Cream Center"
+            image="/ice_cream_center.jpg"
+            url="https://www.yelp.com/biz/ice-cream-center-brooklyn"
+          />
+          <Card
+            name="Carvel"
+            image="src/assets/carvel.jpg"
+            url="https://locations.carvel.com/ny/brooklyn/1048-coney-island-ave?utm_source=google&utm_medium=organic&utm_campaign=locations_partner"
+          />
+          <Card
+            name="Baskin-Robbins"
+            image="src/assets/baskin_robbins.png"
+            url="https://locations.baskinrobbins.com/ny/brooklyn/6502-14th-ave-342286-br?utm_source=google&utm_medium=organic&utm_campaign=Yext"
+          />
           <Card
             name="Solo Scoop Creamery"
-            image="public/solo_scoop_creamery.png"
+            image="src/assets/solo_scoop_creamery.png"
+            url="https://www.soloscoopcreamery.com/"
           />
-          <Card name="Nieves Tia Mimi" image="public/nieves_tia.jpg" />
-          <Card name="Stuffed Ice Cream" image="public/stuffed_ice_cream.jpg" />
-          <Card name="Ices Queen" image="public/ices_queen.jpg" />
-          <Card name="Uncle Louie" image="public/uncle_louie.jpg" />
-          <Card name="Amai Bā" image="public/amai.jpg" />
-          <Card name="Jane's Ice Cream" image="public/jane's.jpg" />
+          <Card
+            name="Nieves Tia Mimi"
+            image="src/assets/nieves_tia.jpg"
+            url="https://www.nievestiamimi.getsauce.com/"
+          />
+          <Card
+            name="Stuffed Ice Cream"
+            image="src/assets/stuffed_ice_cream.jpg"
+            url="https://stuffedicecreamnyc.com/"
+          />
+          <Card
+            name="Ices Queen"
+            image="public/ices_queen.jpg"
+            url="https://www.yelp.com/biz/ices-queen-brooklyn"
+          />
+          <Card
+            name="Uncle Louie"
+            image="src/assets/uncle_louie.jpg"
+            url="https://unclelouiegee.com/"
+          />
+          <Card
+            name="Amai Bā"
+            image="src/assets/amai.jpg"
+            url="https://www.xn--amaib-jwa.com/"
+          />
+          <Card
+            name="Jane's Ice Cream"
+            image="src/assets/jane's.jpg"
+            url="https://www.larkcafe.com/icecream"
+          />
         </div>
       </div>
     </>
