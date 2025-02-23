@@ -7,10 +7,20 @@ const App = () => {
       {/* The container which centers the page */}
       <div className="container">
         {/* The title of the page and some descriptions */}
-        <div className="header-text">
-          <h1>YumYum Ice Cream</h1>
-          <p>Find your favorite ice cream place here!!!</p>
-          <p>Here, we have varity places that you can choose from.</p>
+        <div className="hero-section">
+          <div>
+            <img
+              src="public/ice_cream.png"
+              alt="ice cream icon"
+              width="150px"
+              height="150px"
+            />
+          </div>
+          <div className="header-text">
+            <h1>YumYum Ice Cream</h1>
+            <p>Find your favorite ice cream store!!!</p>
+            <p>Here, we have variety stores that you can choose!</p>
+          </div>
         </div>
 
         {/* Cards with props */}
@@ -27,7 +37,7 @@ const App = () => {
           />
           <Card
             name="Ice Cream Center"
-            image="/ice_cream_center.jpg"
+            image="src/assets/ice_cream_center.jpg"
             url="https://www.yelp.com/biz/ice-cream-center-brooklyn"
           />
           <Card
@@ -57,7 +67,7 @@ const App = () => {
           />
           <Card
             name="Ices Queen"
-            image="public/ices_queen.jpg"
+            image="src/assets/ices_queen.jpg"
             url="https://www.yelp.com/biz/ices-queen-brooklyn"
           />
           <Card
