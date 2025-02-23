@@ -22,6 +22,7 @@ The following **optional** features are implemented:
 
 Here's a walkthrough of implemented required features:
 
+<img src='src/assets/community_board.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
 
 GIF created with LICEcap  
 
